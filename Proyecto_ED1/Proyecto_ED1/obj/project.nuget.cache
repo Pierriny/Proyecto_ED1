@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0j8S79zetWf4RDeMSi7FbRPhtVPu8qFlxOCMYNFcrpq7NEiTQp7aoMCBXl8mhiupbIs/viainfnDbszdR++Vrg==",
+  "dgSpecHash": "bAvfpgbZmL5EO6WbXDa9BTzyNMqyLh9rSKMcJfoSlljmIjYvH8vNvxLgQin+W/tEbuCvxt3Ygiq/opXIa7P7Sg==",
   "success": true,
   "projectFilePath": "C:\\Users\\hanse\\Documents\\2023primerciclo\\Estrutura de datos\\Proyecto\\Repositorio\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hanse\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
