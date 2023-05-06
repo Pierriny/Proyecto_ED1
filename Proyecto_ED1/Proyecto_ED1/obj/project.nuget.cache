@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0j8S79zetWf4RDeMSi7FbRPhtVPu8qFlxOCMYNFcrpq7NEiTQp7aoMCBXl8mhiupbIs/viainfnDbszdR++Vrg==",
+  "dgSpecHash": "ghuIKexrT55bjzC4R9unQR7YB9PuviVzmQjyd+xaKr6UxMlzW7JHSaHxADDaXmfOTLjHlx5XA3Pz01zTVUV6dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hanse\\Documents\\2023primerciclo\\Estrutura de datos\\Proyecto\\Repositorio\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\roche\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\roche\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\roche\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\roche\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
