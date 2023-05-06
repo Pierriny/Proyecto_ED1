@@ -1,0 +1,80 @@
+﻿@model Proyecto_ED1.Models.Pacientes
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<h4>Ingrese los siguientes datos del paciente:</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="guardarPacientesAVL">
+
+            <div class="form-group">
+                <label asp-for="Name1" class="control-label"></label>
+                <input asp-for="Name1" name="_name1" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Name2" class="control-label"></label>
+                <input asp-for="Name2" name="_name2" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="LName1" class="control-label"></label>
+                <input asp-for="LName1" name="_Lname1" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="LName2" class="control-label"></label>
+                <input asp-for="LName2" name="_Lname2" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="ID" class="control-label"></label>
+                <input asp-for="ID" name="_id" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="age" class="control-label"></label>
+                <input type="number" asp-for="age" name="_age" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" name="_phone" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="last_consult" class="control-label"></label>
+                <input type="number" asp-for="last_consult" name="_last" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="next_consult" class="control-label"></label>
+                <input type="number" asp-for="next_consult" name="_next" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <select asp-for="description" name="_description" class="form-control">
+                    <option value="Sin Diagnostico previo">Sin especificar</option>
+                    <option value="Cognitivo">Cognitivo</option>
+                    <option value="Conductual">Conductual</option>
+                    <option value="Gestálica">Gestálica</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="asistencia" class="control-label"></label>
+                <select asp-for="asistencia" name="_asistencia" class="form-control">
+                    <option value="Hibrido">Hibrido</option>
+                    <option value="Presencial">Presencial</option>
+                    <option value="Virtual">Virtual</option>
+                </select>
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

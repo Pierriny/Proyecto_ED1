@@ -1,0 +1,12 @@
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\bin\Debug\net5.0\DataStructurs.deps.json
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\bin\Debug\net5.0\DataStructurs.dll
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\bin\Debug\net5.0\ref\DataStructurs.dll
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\bin\Debug\net5.0\DataStructurs.pdb
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\DataStructurs.csproj.AssemblyReference.cache
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\DataStructurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\DataStructurs.AssemblyInfoInputs.cache
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\DataStructurs.AssemblyInfo.cs
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\DataStructurs.csproj.CoreCompileInputs.cache
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\DataStructurs.dll
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\ref\DataStructurs.dll
+C:\Users\hanse\Documents\2023primerciclo\Estrutura de datos\Proyecto\Repositorio\Proyecto_ED1\Proyecto_ED1\DataStructurs\obj\Debug\net5.0\DataStructurs.pdb
