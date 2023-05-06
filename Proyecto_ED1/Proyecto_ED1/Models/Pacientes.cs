@@ -27,10 +27,11 @@ namespace Proyecto_ED1.Models
         public int next_consult { get; set; }
         [Name("Descripcion")]
         public String description { get; set; }
-
+        [Name("Asistencia")]
+        public String asistencia { get; set; }
 
         public Pacientes() { }
-        public Pacientes(String name1, String name2, String Lname1, String Lname2, long id, int age, int phone, int last, int next, String description)
+        public Pacientes(String name1, String name2, String Lname1, String Lname2, long id, int age, int phone, int last, int next, String description, String asistencia)
         {
             this.Name1 = name1;
             this.Name2 = name2;
@@ -42,7 +43,7 @@ namespace Proyecto_ED1.Models
             this.last_consult = last;
             this.next_consult = next;
             this.description = description;
-
+            this.asistencia = asistencia;
         }
     }
 }

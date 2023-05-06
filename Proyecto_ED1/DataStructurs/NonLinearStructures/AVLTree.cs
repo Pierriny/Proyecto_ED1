@@ -53,7 +53,6 @@ namespace DataStructurs.NonLinearStructures
             return H;
         }
 
-
         public int getRotaciones()
         {
             return rotaciones;
@@ -229,7 +228,6 @@ namespace DataStructurs.NonLinearStructures
             }
             return raiz;
         }
-
         public virtual void Remove(T item, IComparer<T> comparer)
         {
             bool flag = false;
