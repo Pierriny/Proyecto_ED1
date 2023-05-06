@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hanse\\Documents\\2023primerciclo\\Estrutura de datos\\Proyecto\\Repositorio\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj": {}
+    "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hanse\\Documents\\2023primerciclo\\Estrutura de datos\\Proyecto\\Repositorio\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj": {
+    "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\DataStructurs\\DataStructurs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanse\\Documents\\2023primerciclo\\Estrutura de datos\\Proyecto\\Repositorio\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj",
-        "projectName": "Proyecto_ED1",
-        "projectPath": "C:\\Users\\hanse\\Documents\\2023primerciclo\\Estrutura de datos\\Proyecto\\Repositorio\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj",
-        "packagesPath": "C:\\Users\\hanse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hanse\\Documents\\2023primerciclo\\Estrutura de datos\\Proyecto\\Repositorio\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1\\obj\\",
+        "projectUniqueName": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\DataStructurs\\DataStructurs.csproj",
+        "projectName": "DataStructurs",
+        "projectPath": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\DataStructurs\\DataStructurs.csproj",
+        "packagesPath": "C:\\Users\\Giancarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\DataStructurs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hanse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Giancarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -51,10 +45,112 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj",
+        "projectName": "Proyecto_ED1",
+        "projectPath": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\Proyecto_ED1\\Proyecto_ED1.csproj",
+        "packagesPath": "C:\\Users\\Giancarlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\Proyecto_ED1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Giancarlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\DataStructurs\\DataStructurs.csproj": {
+                "projectPath": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\DataStructurs\\DataStructurs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +159,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

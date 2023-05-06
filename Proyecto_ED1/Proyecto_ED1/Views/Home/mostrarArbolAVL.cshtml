@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "mostrarArbolAVL";
+}
+
+
+<h4>Registre Interno de la Clinica Mental </h4>
+
+<h6>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <td>
+                        <form asp-controller="Home" asp-action="buscarNombre">
+                            <label>Ingrese el Primer nombre del paciente</label>
+                            <input type="text" name="_name1" />
+
+                            <input type="submit" value="Buscar Paciente" class="btn btn-primary" />
+                        </form>
+                    </td>
+                    <td>
+                        <form asp-controller="Home" asp-action="buscarID">
+                            <label>Ingrese el número de ID del paciente</label>
+                            <input type="text" name="_id" />
+
+                            <input type="submit" value="Buscar Paciente" class="btn btn-primary" />
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</h6>
+<br />
+
+
+
+
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>Datos del árbol AVL</h1>
+            <h3>@ViewBag.Altura</h3>
+            <h3>@ViewBag.Nodes</h3>
+        </div>
+    </div>
+    <div>
+        <h5>
+            <p margin:0 auto>
+                <a asp-action="mostrarArbolAVL" asp-route-orden="0">Ordenar por ID</a>&ensp;
+                <a asp-action="mostrarArbolAVL" asp-route-orden="1">Ordenar por Serie</a>&ensp;
+                <a asp-action="mostrarArbolAVL" asp-route-orden="2">Ordenar por Email</a>&ensp;
+                @ViewBag.tiempo
+            </p>
+        </h5>
+    </div>
+    <div class="row">
+        <div class="col-12">
+
+            <table class="table table-bordered table-striped">
+                <tr class="table-success">
+                    <th>DPI</th>
+                    <th>Primer Nombre</th>
+                    <th>Segundo nombre</th>
+                    <th>Primer Apellido</th>
+                    <th>Segundo Apellido</th>
+                    <th>Edad</th>
+                    <th>Telefono</th>
+                    <th>Metodo de asistencia</th>
+                    <th>Meses desde ultima visita</th>
+                    <th>Ultimo diagnostico</th>
+                    <th>Proximo diagnostico</th>
+                </tr>
+                @foreach (var item in ViewData["Pacientes"] as List<Pacientes>)
+                 {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Name1</td>
+                <td>@item.Name2</td>
+                <td>@item.LName1</td>
+                <td>@item.LName2</td>
+                <td>@item.age</td>
+                <td>@item.Phone</td>
+                <td>@item.asistencia</td>
+                <td>@item.last_consult</td>
+                <td>@item.description</td>
+                <td>@item.next_consult</td>
+            </tr>
+                 }
+
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to Home</a>
+</div>
+

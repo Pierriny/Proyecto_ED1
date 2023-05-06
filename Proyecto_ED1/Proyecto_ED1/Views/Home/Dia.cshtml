@@ -1,0 +1,34 @@
+﻿@model Proyecto_ED1.Models.Pacientes
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    ViewData["Title"] = "Dia";
+}
+
+<h4>Ingrese el dia a buscasr:</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="buscarCitas">
+
+            <div class="form-group">
+                <label asp-for="next_consult" class="control-label"></label>
+                <input asp-for="next_consult" name="_name1" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<div>
+    <a asp-action="Index">recibirManualAVL</a>
+</div>

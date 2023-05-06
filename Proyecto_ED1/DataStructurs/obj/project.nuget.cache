@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "V5/uuOrnElrxGDpKHZFykH4GHzXohpoS1wZolZ09NxclIbMYT62xyE6zST1iQpFyf8VMX5LrkLHTGzbvx/Pg3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Giancarlo\\Downloads\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1-CorreccionFinal\\Proyecto_ED1\\DataStructurs\\DataStructurs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Giancarlo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Giancarlo\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Giancarlo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
